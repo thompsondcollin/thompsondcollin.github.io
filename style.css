@@ -7,6 +7,14 @@ header {
     margin-right: auto;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
 .info {
     padding: 20px;
 }
