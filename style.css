@@ -7,6 +7,14 @@ header {
     margin-right: auto;
 }
 
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    font-size: large;
+}
+
 a {
     color: black;
 }
