@@ -1,79 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Metadata for the page -->
-
-<head>
-    <!-- Link to the CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Title of webpage in the browser -->
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Collin's Website</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-
-<!-- All visible content on the page -->
-
-<body>
-    <!-- Main page heading -->
-    <header>
-        <h1>My Homepage</h1>
+    <title>Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="header" class="header">
+      <navbar id="navbar">
+        <ul>
+          <li class="navbar-link"><p><a id="profile-link" href="#welcome-section" target="_blank">About</a></p></li>
+          <li class="navbar-link"><a id="projects-link" href="#projects">Projects</a></li>
+          <li class="navbar-link"><a id="contact-link" href="#contact-section">Contact</a></li>
+        </ul>
+      </navbar>
     </header>
-    <div class="info">
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I have a bachelor's in Mathematics and a minor in computer science and have just started my second semester
-                in an online Masters of Computer Science at Georgia Tech. I am a fast learner and have a large drive to gain
-                new skills and knowledge. In my undergraduate studies I was involved in two high level physics experiments
-                on which I contributed greatly. This included data analysis and manipulation/representation. The data was
-                collected from physics experiments and needed to be interpreted for better understanding and future
-                experiment design. Python and the pandas library were used for this analysis. I am willing and enthusiastic
-                to learn new coding languages and frameworks.
-            </p>
-            <p>Github: <a href="https://github.com/thompsondcollin">github.com/thompsondcollin</a></p>
-            <p>LinkedIn: <a href="www.linkedin.com/in/thompsondcollin">linkedin.com/in/thompsondcollin</a></p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>Masters in Computer Science: Gerorgia Tech University OMSCS - exp. graduation: 2025</li>
-                <li>Bachelors in Mathematics: Central Michigan University - degree awarded: 2021</li>
-                <li>High School Diploma: Tecumseh High School - degree awarded: 2016</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Experience (Most Recent)</h2>
-            <h3>Pyxeda instructor</h3>
-            <p>
-                Online computer science instuctor for K-12 students. This included teaching AI and general concepts in Pyhton 
-                and Java.
-            </p>
-            <h3>Central Michigan University Summer Scholar Research Project</h3>
-            <p>
-                Analyzed data from a nuclear physics experiment under the direction of Dr. Estrade at the University of 
-                Central Michigan. I then used this analysis to design 3D objects and find suitable equipment to be used in 
-                the next expirments on the project.
-            </p>
-            <h3>McNair Scholars Program</h3>
-            <p>
-                As part of the 2019 Central Michigan University McNair Scholars Cohort I was able to conduct reaserch under the
-                direction of Dr. Estrade. This is a national program designed to prepare first-generation and minority students 
-                for graduate school. This research investigated nucleosynthesis of heavy elements by rapid neutron capture 
-                process. I used the pandas module in a linux environment to produce data for computational nuclear physics experiments.
-                These experiments were run with the use of Josh Lippuners's SkyNet: A modular nuclear reaction network library 
-                <a href="https://doi.org/10.48550/arXiv.1706.06198">(Lippuner adn Roberts, 2017)</a>.
-            </p>
-        </section>
-        <section>
-            <h2>Certificates</h2>
-            <h3>freeCodeCamp projects</h3>
-            <p>Data Analysis with Python (see in <a href="https://www.freecodecamp.org/certification/thompsondcollin/data-analysis-with-python-v7">Github</a>)</p>
-            <p>Relational Database (see in <a href="https://www.freecodecamp.org/certification/thompsondcollin/relational-database-v8">Github</a>)</p>
-        </section>
+    <div id="main" class="container">
+      <section id="welcome-section" class="info">
+        <h1 id="main-title">Hey I am Collin</h1>
+        <p id="main-subtitle">student / teacher / developer</p>
+      </section>
+      <section id="projects" class="info">
+        <h1 id="projects-title">Here are some of my projects</h1>
+        <ul>
+          <span class="img-container">
+            <img class="project-tile" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Tech_Tower-6.jpg" alt="tech tower">
+            <p class="img-link"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" >Tribute page</a></p>
+          </span>
+          <span class="img-container">
+            <img class="project-tile" src="https://www.digitaldocumentsdirect.com/wp-content/uploads/2019/10/template-document-transmittal-cover.jpg" alt="technical-project">
+            <p class="img-link"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page" >Technical documentation</a></p>
+          </span>
+          <span class="img-container">
+            <img class="project-tile" src="https://images.rawpixel.com/image_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L25zODIzMC1pbWFnZS5qcGc.jpg" alt="">
+            <p class="img-link"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page */" >Product landing page</a></p>
+          </span>
+        </ul>
+      </section>
+      <section id="certificates" class="info">
+        <h1 id="certificates-title">Certificates</h1>
+        <h2 id="certificates-subtitle">freeCodeCamp</h2>
+        <ul>
+          <li class="certificate-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design">(New) Responsive Web Design</a></li>
+          <li class="certificate-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/data-analysis-with-python-v7">Data Analysis with Python</a></li>
+          <li class="certificate-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/relational-database-v8">Relational Databases</a></li>
+        <ul>
+      </section>
+      <section id="contact-section" class="info">
+        <h1 id="contact-title">Open for work...</h1>
+        <h2 id="contact-subtitle">Let's talk</h2>
+        <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png">
+        <span class="icon-label"><a href="https://github.com/thompsondcollin">Github</a></span>
+        <img class="icon-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Font_Awesome_5_brands_linkedin.svg/512px-Font_Awesome_5_brands_linkedin.svg.png?20181017221845">
+        <span class="icon-label"><a href="www.linkedin.com/in/thompsondcollin
+">LinkedIn</a></span>
+        <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/mail-808-475025.png">
+        <span class="icon-label"><a href="mailto: thompsondcollin@gmail.com">Send an email</a></span>
+        <img class="icon-image" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png">
+        <span class="icon-label"><a href="tel: 517-215-4424">Call me</a></span>
+      </section>
+      <hr id="contact-break"></hr>
+      <footer>
+        <p id="credit">*some links relate to content made available from <a href="https://www.freecodecamp.org/learn">freeCodeCamp</a> lessons and projects</p>
+      </footer>
     </div>
-
-</body>
-
+  </body>
 </html>
