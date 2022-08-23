@@ -8,7 +8,7 @@
   a {
     text-decoration: none;
     font-size: x-large;
-    color: #d1e8e2;
+    color: #ffcb9a;
   }
   
   h1 {
@@ -26,7 +26,7 @@
     width: 100vw;
     padding: 50px 0;
     text-align: right;
-    background-color: #116466;
+    background-color: #d9b08c;
   }
   
   #header .navbar-link {
@@ -34,10 +34,14 @@
     display: inline-block;
     list-style-type: none;
   }
+
+  #navbar a {
+    color: #116466;
+  }
   
   #navbar a:hover {
     padding: 20px 0;
-    color: #d9b08c;
+    color: #2c3531;
   }
   
   #main {
@@ -55,7 +59,8 @@
   }
   
   #welcome-section p {
-    color: #116466;
+    font-size: 20px;
+    color: #ffcb9a;
   }
   
   #projects {
@@ -72,6 +77,10 @@
   .img-container {
     margin: 10px;
     display: inline-block;
+  }
+
+  #projects a {
+    color: #ffcb9a
   }
   
   #projects a:hover {
