@@ -19,6 +19,7 @@ a:hover {
 .navbar-link a {
   font-size: x-large;
   text-decoration: none;
+  color: #FFBC9A;
 }
 
 .navbar-link {
@@ -51,7 +52,7 @@ a:hover {
   left: 0;
   flex-direction: column;
   align-items: center;
-  padding: 600px 0;
+  padding: 60rem 0;
   width: 100vw;
 }
 
