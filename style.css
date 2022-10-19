@@ -1,9 +1,94 @@
 *{
   box-sizing: border-box;
-  width: 0;
-  height: 0;
+  margin: 0;
+  padding: 0;
+  color: #FFBC9A;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: underline;
+  color: #FFBC9A;
+}
+
+/* mouse over link */
+a:hover {
+  color: #116466;
+}
+
+.navbar-link a {
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+  background-color: #2C3531;
 }
 
 #navbar {
   display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+#header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10rem;
+  background-color: #FFBC9A;
+}
+
+.info {
+  display: flex;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 600px 0;
+  width: 100vw;
+}
+
+#polaroid-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.polaroid {
+  margin: 0 5rem;
+}
+
+#welcome-section {
+  background-color: #116466;
+}
+
+#projects-section {
+  background-color: #2C3531;
+}
+
+.project-tile {
+  width: 40rem;
+  height: 30rem;
+}
+
+#certificates-section {
+  background-color: #116466;
+}
+
+#contact-section {
+  background-color: #2C3531;
+}
+
+.icon-image {
+  height: 5vh;
+}
+
+footer > p {
+  color: #2C3531;
 }

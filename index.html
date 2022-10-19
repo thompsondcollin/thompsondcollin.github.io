@@ -8,38 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
   </head>
   <body>
-    <header id="header" class="header">
-      <navbar id="navbar">
-        <ul>
-          <li class="navbar-link"><p><a id="profile-link" href="#welcome-section" target="_blank">About</a></p></li>
-          <li class="navbar-link"><a id="projects-link" href="#projects">Projects</a></li>
-          <li class="navbar-link"><a id="contact-link" href="#contact-section">Contact</a></li>
-        </ul>
-      </navbar>
+    <header id="header">
+      <ul id="navbar">
+        <li class="navbar-link"><p><a id="profile-link" href="#welcome-section">About</a></p></li>
+        <li class="navbar-link"><a id="projects-link" href="#projects">Projects</a></li>
+        <li class="navbar-link"><a id="contact-link" href="#contact-section">Contact</a></li>
+      </ul>
     </header>
-    <div id="main" class="container">
-      <section id="welcome-section" class="info">
-        <h1 id="main-title">Hey I am Collin</h1>
+    <div id="main">
+      <div id="welcome-section" class="info">
+        <h1 id="main-title">Hey, I am Collin</h1>
         <p id="main-subtitle">student / teacher / developer</p>
-      </section>
-      <section id="projects" class="info">
+      </div>
+      <div id="projects-section" class="info">
         <h1 id="projects-title">My Experience</h1>
-        <ul>
-          <span class="img-container">
+        <div id="polaroid-wrapper">
+          <div class="polaroid">
             <img class="project-tile" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Tech_Tower-6.jpg" alt="tech tower">
-            <p class="img-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Tribute page</a></p>
-          </span>
-          <span class="img-container">
+            <p class="caption"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Tribute page</a></p>
+          </div>
+          <div class="polaroid">
             <img class="project-tile" src="https://www.digitaldocumentsdirect.com/wp-content/uploads/2019/10/template-document-transmittal-cover.jpg" alt="technical paper">
-            <p class="img-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Technical documentation</a></p>
-          </span>
-          <span class="img-container">
+            <p class="caption"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Technical documentation</a></p>
+          </div>
+          <div class="polaroid">
             <img class="project-tile" src="https://images.rawpixel.com/image_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L25zODIzMC1pbWFnZS5qcGc.jpg" alt="dogs on grass">
-            <p class="img-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Product landing page</a></p>
-          </span>
-        </ul>
-      </section>
-      <section id="certificates" class="info">
+            <p class="caption"><a href="https://www.freecodecamp.org/certification/thompsondcollin/responsive-web-design#" >Product landing page</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="certificates-section" class="info">
         <h1 id="certificates-title">Certificates</h1>
         <h2 id="certificates-subtitle">freeCodeCamp</h2>
         <ul>
@@ -47,20 +45,29 @@
           <li class="certificate-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/data-analysis-with-python-v7">Data Analysis with Python</a></li>
           <li class="certificate-link"><a href="https://www.freecodecamp.org/certification/thompsondcollin/relational-database-v8">Relational Databases</a></li>
         <ul>
-      </section>
-      <section id="contact-section" class="info">
+      </div>
+      <div id="contact-section" class="info">
         <h1 id="contact-title">Open for work...</h1>
         <h2 id="contact-subtitle">Let's talk</h2>
-        <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png" alt="github icon">
-        <span class="icon-label"><a href="https://github.com/thompsondcollin">Github</a></span>
-        <img class="icon-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Font_Awesome_5_brands_linkedin.svg/512px-Font_Awesome_5_brands_linkedin.svg.png?20181017221845" alt="linkedIn icon">
-        <span class="icon-label"><a href="www.linkedin.com/in/thompsondcollin
-">LinkedIn</a></span>
-        <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/mail-808-475025.png" alt="email icon">
-        <span class="icon-label"><a href="mailto: thompsondcollin@gmail.com">Send an email</a></span>
-        <img class="icon-image" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png" alt="phone icon">
-        <span class="icon-label"><a href="tel: 517-215-4424">Call me</a></span>
-      </section>
+        <div id="polaroid-wrapper">
+          <div class="polaroid">
+            <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png" alt="github icon">
+            <p class="caption"><a href="https://github.com/thompsondcollin">Github</a></span>
+          </div>
+          <div class="polaroid">
+            <img class="icon-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Font_Awesome_5_brands_linkedin.svg/512px-Font_Awesome_5_brands_linkedin.svg.png?20181017221845" alt="linkedIn icon">
+            <p class="caption"><a href="www.linkedin.com/in/thompsondcollin">LinkedIn</a></span>
+          </div>
+          <div class="polaroid">
+            <img class="icon-image" src="https://cdn.iconscout.com/icon/free/png-256/mail-808-475025.png" alt="email icon">
+            <p class="caption"><a href="mailto: thompsondcollin@gmail.com">Send an email</a></span>
+          </div>
+          <div class="polaroid">
+            <img class="icon-image" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png" alt="phone icon">
+            <p class="caption"><a href="tel: 517-215-4424">Call me</a></span>
+          </div>
+        </div>
+      </div>
       <hr id="contact-break"></hr>
       <footer>
         <p id="credit">*some links relate to content made available from <a href="https://www.freecodecamp.org/learn">freeCodeCamp</a> lessons and projects</p>
